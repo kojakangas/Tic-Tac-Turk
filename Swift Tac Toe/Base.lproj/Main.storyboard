@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Swift_Tac_Toe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="background" id="clg-qO-U7K">
+                                <rect key="frame" x="0.0" y="20" width="332" height="548"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" id="2fN-5d-0wI">
+                                <rect key="frame" x="16" y="30" width="94" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" id="TGv-nr-fN5">
+                                <rect key="frame" x="110" y="30" width="106" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" id="7wR-AL-aPH">
+                                <rect key="frame" x="216" y="30" width="88" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" id="x75-ft-6jP">
+                                <rect key="frame" x="21" y="205" width="86" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" id="mRQ-xj-Qzd">
+                                <rect key="frame" x="115" y="205" width="100" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" id="4RK-6W-U8I">
+                                <rect key="frame" x="214" y="205" width="92" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" id="iDe-dp-ZwC">
+                                <rect key="frame" x="21" y="360" width="86" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" id="rNo-b6-1yM">
+                                <rect key="frame" x="115" y="360" width="106" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" id="Ezd-H5-jca">
+                                <rect key="frame" x="221" y="360" width="85" height="187"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0RK-Wn-5Nq">
+                                <rect key="frame" x="15" y="30" width="94" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="UIButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TdP-tE-92R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ymv-Kr-qiX">
+                                <rect key="frame" x="109" y="30" width="106" height="168"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="UIButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zgW-mv-Con"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4W4-Ro-uhc">
+                                <rect key="frame" x="215" y="30" width="91" height="168"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="UIButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fh7-Gm-aqZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Wjs-6l-B7A">
+                                <rect key="frame" x="21" y="205" width="80" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="UIButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tXa-c5-fmI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="OVw-vm-mRM">
+                                <rect key="frame" x="109" y="205" width="105" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="UIButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d6d-zp-cBp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yBj-97-tSM">
+                                <rect key="frame" x="214" y="205" width="91" height="154"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="UIButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9zR-os-ElI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2MW-uI-Pok">
+                                <rect key="frame" x="17" y="360" width="94" height="187"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="UIButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H4W-iW-7wZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CI6-dD-z5K">
+                                <rect key="frame" x="217" y="360" width="91" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="UIButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZNB-8d-za1"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ufa-ps-zXQ">
+                                <rect key="frame" x="111" y="206" width="102" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.67591243848389548" blue="0.16642571396229866" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="resetButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QoM-Fc-W56"/>
+                                </connections>
+                            </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dPp-CN-apr">
+                                <rect key="frame" x="15" y="43" width="289" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.17288778465182786" green="0.22102958919947802" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.99033424574331341" green="0.97701178362839403" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <color key="NSColor" red="0.98808773311395204" green="1" blue="0.99117570343934835" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UiZ-Bf-kR6">
+                                <rect key="frame" x="110" y="367" width="106" height="168"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="UIButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VgK-UX-xEI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="resetButton" destination="ufa-ps-zXQ" id="zsa-uL-Xu8"/>
+                        <outlet property="ticTacButton1" destination="0RK-Wn-5Nq" id="SVO-x8-WvB"/>
+                        <outlet property="ticTacButton2" destination="Ymv-Kr-qiX" id="1uS-Gc-7Hq"/>
+                        <outlet property="ticTacButton3" destination="4W4-Ro-uhc" id="VCQ-QX-h5r"/>
+                        <outlet property="ticTacButton4" destination="Wjs-6l-B7A" id="OL9-I3-aaf"/>
+                        <outlet property="ticTacButton5" destination="OVw-vm-mRM" id="uMG-16-RxD"/>
+                        <outlet property="ticTacButton6" destination="yBj-97-tSM" id="Q3n-h3-FJ9"/>
+                        <outlet property="ticTacButton7" destination="2MW-uI-Pok" id="5eO-QZ-8ee"/>
+                        <outlet property="ticTacButton8" destination="UiZ-Bf-kR6" id="v8N-iS-umP"/>
+                        <outlet property="ticTacButton9" destination="CI6-dD-z5K" id="etf-7e-g9t"/>
+                        <outlet property="ticTacImg1" destination="2fN-5d-0wI" id="uaU-hP-xkX"/>
+                        <outlet property="ticTacImg2" destination="TGv-nr-fN5" id="OnO-ES-a64"/>
+                        <outlet property="ticTacImg3" destination="7wR-AL-aPH" id="n00-ub-JSI"/>
+                        <outlet property="ticTacImg4" destination="x75-ft-6jP" id="pP7-46-GmU"/>
+                        <outlet property="ticTacImg5" destination="mRQ-xj-Qzd" id="FmN-Gw-URS"/>
+                        <outlet property="ticTacImg6" destination="4RK-6W-U8I" id="tP1-Eu-E57"/>
+                        <outlet property="ticTacImg7" destination="iDe-dp-ZwC" id="MVB-Ej-Qzo"/>
+                        <outlet property="ticTacImg8" destination="rNo-b6-1yM" id="hY0-nT-YQw"/>
+                        <outlet property="ticTacImg9" destination="Ezd-H5-jca" id="Vei-xy-EB5"/>
+                        <outlet property="userMessage" destination="dPp-CN-apr" id="qUo-4T-vGO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="74" y="136"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="294" height="317"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_0.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>
